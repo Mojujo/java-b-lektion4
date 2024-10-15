@@ -1,4 +1,9 @@
 package se.oscar.polymorfism;
 
-public class Animal {
+public abstract class Animal {
+    abstract void makeSound();
+
+    void sleep() {
+        System.out.println("Sleeping ... Zz Zz Zz");
+    }
 }
